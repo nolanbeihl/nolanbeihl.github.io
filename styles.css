@@ -54,9 +54,7 @@ body,head {
 @media only screen and (max-width: 500px) {
     html {
         background-color: black;
+        width: 100%;
     }
-        [class*="main"] {
-            width:100%;
     }
-}
-
+  
