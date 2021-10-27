@@ -50,3 +50,13 @@ img.floatLeft {
 body,head {
     background-color: rgb(209, 124, 68) ;
 }
+  
+@media only screen and (max-width: 500px) {
+    body,head{
+        background-color: black;
+    }
+        [class*="main"] {
+            width:100%;
+    }
+}
+
